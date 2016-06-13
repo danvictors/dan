@@ -1,0 +1,85 @@
+2016-06-12 17:23:15 [][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 
+    in /Users/Dan/basic/views/layouts/main.php:75
+    in /Users/Dan/basic/controllers/SiteController.php:52
+2016-06-12 17:23:14 [][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'Apple_Terminal'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'TMPDIR' => '/var/folders/b5/k9v035ls76l5918_tdqrqs1h0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.4u98mKs4J9/Render'
+    'TERM_PROGRAM_VERSION' => '361.1'
+    'TERM_SESSION_ID' => 'A783E9E4-F09E-4358-8A1B-D667A770EA38'
+    'USER' => 'Dan'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.AwOh2UKQtv/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/TeX/texbin'
+    'PWD' => '/Users/Dan/basic/web'
+    'LANG' => 'en_US.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/Dan'
+    'LOGNAME' => 'Dan'
+    'DISPLAY' => '/private/tmp/com.apple.launchd.2LEGuxCL9f/org.macosforge.xquartz:0'
+    '_' => '/usr/bin/php'
+    'OLDPWD' => '/Users/Dan/basic'
+    'PHP_SELF' => 'index.php'
+    'SCRIPT_NAME' => 'index.php'
+    'SCRIPT_FILENAME' => 'index.php'
+    'PATH_TRANSLATED' => 'index.php'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1465752194.5908
+    'REQUEST_TIME' => 1465752194
+    'argv' => [
+        0 => 'index.php'
+    ]
+    'argc' => 1
+]
+2016-06-12 17:23:15 [][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'Unable to determine the request URI.' 
+
+in /Users/Dan/basic/vendor/yiisoft/yii2/web/Request.php:808
+
+Stack trace:
+#0 /Users/Dan/basic/vendor/yiisoft/yii2/web/Request.php(768): yii\web\Request->resolveRequestUri()
+#1 /Users/Dan/basic/vendor/yiisoft/yii2/web/Request.php(753): yii\web\Request->getUrl()
+#2 /Users/Dan/basic/vendor/yiisoft/yii2-debug/LogTarget.php(147): yii\web\Request->getAbsoluteUrl()
+#3 /Users/Dan/basic/vendor/yiisoft/yii2-debug/LogTarget.php(50): yii\debug\LogTarget->collectSummary()
+#4 /Users/Dan/basic/vendor/yiisoft/yii2-debug/LogTarget.php(118): yii\debug\LogTarget->export()
+#5 /Users/Dan/basic/vendor/yiisoft/yii2/log/Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#6 /Users/Dan/basic/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#7 [internal function]: yii\log\Logger->flush(true)
+#8 {main}
+2016-06-12 17:23:14 [][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'Apple_Terminal'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'TMPDIR' => '/var/folders/b5/k9v035ls76l5918_tdqrqs1h0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.4u98mKs4J9/Render'
+    'TERM_PROGRAM_VERSION' => '361.1'
+    'TERM_SESSION_ID' => 'A783E9E4-F09E-4358-8A1B-D667A770EA38'
+    'USER' => 'Dan'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.AwOh2UKQtv/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/TeX/texbin'
+    'PWD' => '/Users/Dan/basic/web'
+    'LANG' => 'en_US.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/Dan'
+    'LOGNAME' => 'Dan'
+    'DISPLAY' => '/private/tmp/com.apple.launchd.2LEGuxCL9f/org.macosforge.xquartz:0'
+    '_' => '/usr/bin/php'
+    'OLDPWD' => '/Users/Dan/basic'
+    'PHP_SELF' => 'index.php'
+    'SCRIPT_NAME' => 'index.php'
+    'SCRIPT_FILENAME' => 'index.php'
+    'PATH_TRANSLATED' => 'index.php'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1465752194.5908
+    'REQUEST_TIME' => 1465752194
+    'argv' => [
+        0 => 'index.php'
+    ]
+    'argc' => 1
+]
